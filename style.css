@@ -32,9 +32,9 @@
 }
 .logo a{
     text-decoration: none;
-    color: blue;
+    color: black;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 900;
 }
 .whoami{
     background-color: #1d4ed8;
@@ -122,11 +122,12 @@
     color: #f1f5f9;
     font-size: 31px;
 }
-img{
-    margin:-40% 70%;
+.images img{
+    margin:-35% 60%;
     display: flex;
     transition: .5s ease;
-    border: 1px solid blue;
+    border: 5px solid blue;
+    border-radius: 50%;
 }
 img:hover{
     transform: scale(1.05)
@@ -271,6 +272,7 @@ img:hover{
     margin: 20px 50px 50px;
     text-align: center;
     border-radius: 20px;
+    transition: .5s ease;
 }
 .card_content i{
     font-size: 50px;
@@ -296,7 +298,9 @@ img:hover{
     justify-content: space-between;
     align-items: center;
 }
-
+.card_content:hover{
+    transform: scale(1.05)
+}
 .copyright {
     font-size: 18px;
     font-weight: 500;
@@ -429,7 +433,7 @@ img:hover{
         justify-content: space-between;
     }
     .about a {
-        padding: 5px 0;
+        padding: 0  0 10px 0;
         font-size: 18px;
     }
     .logo a {
