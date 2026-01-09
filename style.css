@@ -256,7 +256,7 @@ img:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 .cards_content{
     display: flex;
@@ -495,4 +495,5 @@ img:hover{
         font-size: 20px;
     }
 }
+
 
