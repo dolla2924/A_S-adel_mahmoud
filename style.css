@@ -162,9 +162,6 @@ img:hover{
     color: red;
     font-size: xx-large;
 }
-.text:hover{
-    transform: scale(1.05)
-}
 .cards_service{
     width: 100%;
     display: flex;
@@ -498,3 +495,4 @@ img:hover{
         font-size: 20px;
     }
 }
+
